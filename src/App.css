@@ -1,0 +1,64 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-color: whitesmoke;
+  background: #6f687d;
+}
+
+.top-title{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login{
+  height: 300px;
+  width: 550px;
+  border: 2px solid #0091ff;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: aliceblue;
+}
+
+.login input{
+  margin: 10px;
+  height: 30px;
+  width: 200px;
+  border: 2px solid #0091ff;
+  background: transparent;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: #000;
+  font-size: 15px;
+}
+
+.login input:focus{
+  outline: none;
+}
+
+.login button{
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #0091ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login button:hover{
+  background: #0171c6;
+  transition: all 0.2s ease;
+}
